@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Pattaya&display=swap');
+footer { 
+    height: 300px;
+    text-align: center;
+    background-color: crimson;
+}
+
+
+li{ 
+    display: inline-block;
+    
+}
+#Nav-bar { 
+    background-color: firebrick;
+    position: absolute;
+    top: 0%;
+    font-family: 'Pattaya', sans-serif;
+}
+
+
+body { 
+    color: rgb(0, 253, 0);
+    font-size: 50px;
+}
