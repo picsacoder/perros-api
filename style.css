@@ -1,24 +1,78 @@
 @import url('https://fonts.googleapis.com/css2?family=Pattaya&display=swap');
-footer { 
-    height: 300px;
-    text-align: center;
-    background-color: crimson;
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+:root {     --main_color: #581845;    --hover_one: #900C3F; --hover_two: #C70039; --text_color: #FF5733; --text_colorTwo: #FFC300;
 }
 
-
-li{ 
-    display: inline-block;
+nav { background-color: var(--hover_two); height: 100px;}
+#imagen_perro { 
+    width: 700px;
+    height: 700px;
+}
+img { 
+    max-width: 100%;
+    height: auto;
+    display:block;
+    margin:auto;
     
 }
-#Nav-bar { 
-    background-color: firebrick;
-    position: absolute;
-    top: 0%;
-    font-family: 'Pattaya', sans-serif;
+body { 
+
+    background-color: var(--main_color);
 }
 
-
-body { 
-    color: rgb(0, 253, 0);
+.url_nav {
+    text-decoration: none;
+    background-color: var(--hover_one);
+    color: #fff;
+    padding: 10px 170px;
+    display: inline-block;
+    height: 80px;/* auto / 2 */
+    font-family: 'Amatic SC', cursive;
+    width: 600px;
+    text-align: center;
     font-size: 50px;
+}
+
+.url_nav:hover { 
+    background-color: var(--hover_two);
+}
+
+footer { 
+    height: 50px;
+    text-align: center;
+    background-color: var(--hover_one);
+    position: absolute;
+    top: 100%;
+
+}
+
+.btn-material {
+    padding: 0 16px;
+    border-radius: 2px;
+    background-color: var(--hover_two);
+    color: var(--text_color);
+
+    height: 70px;
+    width: 500px;
+    line-height: 2.25rem;
+    font-family: Roboto, sans-serif;
+    font-size: 0.875rem;
+    font-weight: 500;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+  }
+  
+  .btn-material:hover, .btn-material:focus {
+    background-color: var(--hover_one);
+    color: var(--text_colorTwo);
+  }
+  
+  .btn-material:active {
+    box-shadow: 0 5px 5px -3px rgba(0, 0, 0, 0.2),
+      0 8px 10px 1px rgba(0, 0, 0, 0.14),
+      0 3px 14px 2px rgba(0, 0, 0, 0.12);
+    background-color: #61b4b3;
+}
+#right_button { 
+    float: right;
 }
