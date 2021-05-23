@@ -3,73 +3,7 @@
 :root {     --main_color: #581845;    --hover_one: #900C3F; --hover_two: #C70039; --text_color: #FF5733; --text_colorTwo: #FFC300;
 }
 
-nav { background-color: var(--hover_two); height: 100px;}
-#imagen_perro { 
-    width: 700px;
-    height: 700px;
-}
-img { 
+.url_nav { 
 
-    height: auto;
-    display:block;
-    margin:auto;
-    
-}
-body { 
-
-    background-color: var(--main_color);
-}
-
-.url_nav {
-    text-decoration: none;
     background-color: var(--hover_one);
-    color: #fff;
-    padding: 10px 170px;
-    display: inline-block;
-    height: 80px;/* auto / 2 */
-    font-family: 'Amatic SC', cursive;
-    width: 600px;
-    text-align: center;
-    font-size: 50px;
-}
-
-.url_nav:hover { 
-    background-color: var(--hover_two);
-}
-
-footer { 
-    height: 50px;
-    text-align: center;
-    background-color: var(--hover_one);
-    position: absolute;
-    top: 100%;
-
-}
-
-.btn-material {
-    padding: 0 16px;
-    border-radius: 2px;
-    background-color: var(--hover_two);
-    color: var(--text_color);
-
-    height: 70px;
-    width: 500px;
-
-    font-family: Roboto, sans-serif;
-    font-size: 0.875rem;
-    font-weight: 500;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
-  }
-  
-  .btn-material:hover, .btn-material:focus {
-    background-color: var(--hover_one);
-    color: var(--text_colorTwo);
-  }
-#right_button { 
-    float: right;
-}
-
-#left_button { 
-    float: left;
 }
