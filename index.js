@@ -3,7 +3,9 @@ var imagen_opacidad = document.getElementById("imagen_perro").style.opacity = 0
 function downloadImage(url_image) { 
 
 }
+/*
 
+*/
 
 function ChangeImage() {
   var imagen_opacidad = document.getElementById("imagen_perro").style.opacity = 1
