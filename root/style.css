@@ -3,7 +3,43 @@
 :root {     --main_color: #581845;    --hover_one: #900C3F; --hover_two: #C70039; --text_color: #FF5733; --text_colorTwo: #FFC300;
 }
 
-.url_nav { 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color: var(--text_colorTwo);
+}
 
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: var(--hover_two);
+}
+
+li a.active {
+    color: white;
     background-color: var(--hover_one);
+}
+
+body { 
+    background-color: var(--main_color);
+}
+
+img {
+    display: inherit;
+    margin: 0 auto;
+    width: 900px;
+    height: 900px;
 }

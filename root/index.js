@@ -70,3 +70,8 @@ function elegirRaza() {
 
 elegirRaza()
 
+var imagen = "to_oscuro"
+
+function darkMode() { 
+
+}
