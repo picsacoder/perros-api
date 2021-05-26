@@ -4,7 +4,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
 :root { --main_color: #0377BC;    --texto: black; --hover: #00579A; --background_two: #80D8FF;
 }
-
+#SearchDog { 
+    height: 60px;
+    font-size: 20px;
+}
 html, body{
     display: flex;
     flex-direction: column;
@@ -38,8 +41,6 @@ li a {
 li a:hover:not(.active) {
     background-color: var(--hover);
 }
-
-
 
 body { 
     background-color: var(--main_color);

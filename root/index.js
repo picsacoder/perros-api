@@ -1,4 +1,4 @@
-var imagen_opacidad = document.getElementById("imagen_perro").style.opacity = 0 //No se ve la imagen
+var imagen_opacidad = document.getElementById("imagen_perro").style.opacity = 0 
 
 
 /*
@@ -52,9 +52,13 @@ function elegirRaza() {
     "Husky": "https://dog.ceo/api/breed/husky/images/random",
   }
 
+  
+
   var url_raza = url_razas[tipo_raza]; //Url de la imagen a fetch
 
+  var perrosRazas = []
 
+  
 
   fetch(url_raza)
     .then(response => response.json())

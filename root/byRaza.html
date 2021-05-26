@@ -4,14 +4,47 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script src="index.js"></script>
+    <title>Perros Bonitos</title>
+    
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>
-        Proximamente...
-    </h1>
+    <header>
+        <nav>
+            <ul class="menu-box">
+                <li>
+                    <a href="index.html">
+                    Busqueda aleatoria
+                    </a>
+                </li>
 
+                <li>
+                    <a href="byRaza.html">
+                    Busqueda por raza
+                    </a>
+                </li>
+
+
+
+            </ul>
+        </nav>
+    </header>
+
+    <form action="POST">
+        <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+        <label for="vehicle1">Pastor Belga Malinois</label><br>
+
+        <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+        <label for="vehicle2">Boxer</label><br>
+
+        <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+        <label for="vehicle3">Shiba</label><br><br>
+
+        <input type="submit" value="Buscar">
+      </form>
+    
+    <img src="" id="perros">
 
 </body>
+<script src="index.js"></script>
 </html>
