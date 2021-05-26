@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Pattaya&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
 :root {     --main_color: #581845;    --hover_one: #900C3F; --hover_two: #C70039; --text_color: #FF5733; --text_colorTwo: #FFC300;
 }
 
@@ -34,7 +35,7 @@ li a.active {
 }
 
 body { 
-    background-color: var(--main_color);
+    background-color: var(--hover_one);
 }
 
 img {
@@ -50,4 +51,7 @@ img {
 footer { 
     background-color: var(--hover_two);
     border: solid;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 40px;
+    text-align: center;
 }

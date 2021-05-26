@@ -1,8 +1,6 @@
-var imagen_opacidad = document.getElementById("imagen_perro").style.opacity = 0
+var imagen_opacidad = document.getElementById("imagen_perro").style.opacity = 0 //No se ve la imagen
 
-function downloadImage(url_image) { 
 
-}
 /*
 
 */
@@ -10,7 +8,7 @@ function downloadImage(url_image) {
 function ChangeImage() {
   var imagen_opacidad = document.getElementById("imagen_perro").style.opacity = 1
 
-  var id_data = document.getElementById("imagen_perro").src = "https://media4.giphy.com/media/3oEjI6SIIHBdRxXI40/giphy.gif"
+  var id_data = document.getElementById("imagen_perro").src = "./icons/cached_black_48dp.svg"
 
   const url = "https://dog.ceo/api/breeds/image/random"
 
@@ -86,4 +84,3 @@ function darkMode() {
 }
 
 document.getElementById("img_dark").addEventListener("click", darkMode)
-
