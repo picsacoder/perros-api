@@ -46,3 +46,8 @@ img {
     width: 100%;
     height: auto;
 }
+
+footer { 
+    background-color: var(--hover_two);
+    border: solid;
+}

@@ -23,10 +23,9 @@ function ChangeImage() {
     .then(data => { 
 
       var id_data = document.getElementById("imagen_perro").src = data.message
-
       setTimeout(function() 
       {boton.removeAttribute("disabled", "")
-    
+  
       }, 1000)
       
     })
@@ -70,16 +69,21 @@ function elegirRaza() {
 
 elegirRaza()
 
-var imagen = "to_oscuro"
+var imagen = "to_dark"
 
 function darkMode() {
 
-  if (imagen == "to_oscuro") { 
-    var img_ = document.getElementById("img_dark").src = "";
+  if (imagen == "to_dark") { 
+    var img_ = document.getElementById("img_dark").src = "./icons/light_mode_black_48dp.svg";
+    imagen = "to_light"
   }
-
   else { 
-    
+    var img_ = document.getElementById("img_dark").src = "./icons/dark_mode_black_48dp.svg";
+    imagen = "to_dark"
+
   }
 
 }
+
+document.getElementById("img_dark").addEventListener("click", darkMode)
+
