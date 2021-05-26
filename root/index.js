@@ -72,6 +72,14 @@ elegirRaza()
 
 var imagen = "to_oscuro"
 
-function darkMode() { 
+function darkMode() {
+
+  if (imagen == "to_oscuro") { 
+    var img_ = document.getElementById("img_dark").src = "";
+  }
+
+  else { 
+    
+  }
 
 }

@@ -42,4 +42,7 @@ img {
     margin: 0 auto;
     width: 900px;
     height: 900px;
+
+    width: 100%;
+    height: auto;
 }
