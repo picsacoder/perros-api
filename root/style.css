@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Pattaya&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
-:root {     --main_color: #581845;    --hover_one: #900C3F; --hover_two: #C70039; --text_color: #FF5733; --text_colorTwo: #FFC300;
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+:root { --main_color: #0377BC;    --texto: black; --hover: #00579A; --background_two: #80D8FF;
 }
 
 ul {
@@ -9,8 +10,8 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    border: 1px solid #e7e7e7;
-    background-color: var(--text_colorTwo);
+
+    background-color: var(--background_two);
 }
 
 li {
@@ -19,23 +20,23 @@ li {
 
 li a {
     display: block;
-    color: #666;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    color: black;
+    font-family: 'Abel', sans-serif;
+    font-size: 3vh;
 }
 
 li a:hover:not(.active) {
-    background-color: var(--hover_two);
+    background-color: var(--hover);
 }
 
-li a.active {
-    color: white;
-    background-color: var(--hover_one);
-}
+
 
 body { 
-    background-color: var(--hover_one);
+    background-color: var(--main_color);
+    text-decoration: none;
 }
 
 img {
@@ -43,15 +44,14 @@ img {
     margin: 0 auto;
     width: 900px;
     height: 900px;
-
     width: 100%;
     height: auto;
 }
 
 footer { 
-    background-color: var(--hover_two);
+    background-color: var(--background_two);
     border: solid;
     font-family: 'Shadows Into Light', cursive;
-    font-size: 40px;
+    font-size: 30px;
     text-align: center;
 }
