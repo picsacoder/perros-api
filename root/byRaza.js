@@ -1,3 +1,9 @@
+function DesactivarBoton() { 
+  
+}
+
+
+
 const url_razas = {
   "Belga_malinois": "https://dog.ceo/api/breed/malinois/images/random",
   "Boxer": "https://dog.ceo/api/breed/boxer/images/random",

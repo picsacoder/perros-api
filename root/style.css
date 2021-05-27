@@ -40,7 +40,7 @@ li a {
     text-decoration: none;
     color: black;
     font-family: 'Abel', sans-serif;
-    font-size: 3vh;
+    font-size: 20px;
 }
 
 li a:hover:not(.active) {
