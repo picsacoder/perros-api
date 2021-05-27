@@ -1,12 +1,3 @@
-function fetchh(url) {
-    fetch(url)
-    .then(response => response.json)
-    .then(data => { 
-        var id_data = document.getElementById("perros").src = data.message
-      })
-  
-    .catch(err => console.log(err))
-}
 const url_razas = {
   "Belga_malinois": "https://dog.ceo/api/breed/malinois/images/random",
   "Boxer": "https://dog.ceo/api/breed/boxer/images/random",
