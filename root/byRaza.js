@@ -5,7 +5,7 @@ function fetchh(url) {
         var id_data = document.getElementById("perros").src = data.message
       })
   
-      .catch(err => console.log(err))
+    .catch(err => console.log(err))
 }
 const url_razas = {
   "Belga_malinois": "https://dog.ceo/api/breed/malinois/images/random",
@@ -22,7 +22,18 @@ var indexButton;
 
 function BelgaMalinois() { 
   indexButton = 0
-  console.log(url_perro[indexButton].id)
+  console.log(url_razas[url_perro[indexButton].id])
+
+  const coso = url_razas[url_perro[indexButton].id]
+
+  fetch(coso)
+  .then(response => response.json())
+  .then(data => { 
+
+    var id_data = document.getElementById("perros").src = data.message    
+  })
+
+  .catch(err => console.log(err))
 
 }
 
@@ -31,12 +42,34 @@ function boxer() {
   indexButton = 1
   console.log(url_perro[indexButton].id)
 
+  const coso = url_razas[url_perro[indexButton].id]
+
+  fetch(coso)
+  .then(response => response.json())
+  .then(data => { 
+
+    var id_data = document.getElementById("perros").src = data.message    
+  })
+
+  .catch(err => console.log(err))
+
 }
 
 
 function shiba() { 
   indexButton = 2
   console.log(url_perro[indexButton].id)
+
+  const coso = url_razas[url_perro[indexButton].id]
+
+  fetch(coso)
+  .then(response => response.json())
+  .then(data => { 
+
+    var id_data = document.getElementById("perros").src = data.message    
+  })
+
+  .catch(err => console.log(err))
 
   
 }
@@ -46,26 +79,34 @@ function akita() {
   indexButton = 3
   console.log(url_perro[indexButton].id)
 
+  const coso = url_razas[url_perro[indexButton].id]
+
+  fetch(coso)
+  .then(response => response.json())
+  .then(data => { 
+
+    var id_data = document.getElementById("perros").src = data.message    
+  })
+
+  .catch(err => console.log(err))
+
   
 }
 
 function husky() { 
   indexButton = 4
   console.log(url_perro[indexButton].id)
-}
 
-function elegirRaza() { 
+  const coso = url_razas[url_perro[indexButton].id]
 
+  fetch(coso)
+  .then(response => response.json())
+  .then(data => { 
 
+    var id_data = document.getElementById("perros").src = data.message    
+  })
 
-    let tipo_raza = "" //variable que cambie cuando se escoge una raza
-  
-
-    
-    
-    console.log(indexButton)
-
-   
+  .catch(err => console.log(err))
 }
 
 

@@ -8,6 +8,11 @@
     height: 60px;
     font-size: 20px;
 }
+
+.SearchDog {
+    height: 60px;
+    font-size: 20px;
+}
 html, body{
     display: flex;
     flex-direction: column;
