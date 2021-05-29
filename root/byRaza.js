@@ -1,5 +1,5 @@
 function DesactivarBoton() { 
-  
+  let botones = document.getElementsByClassName("")
 }
 
 
@@ -15,11 +15,11 @@ const url_razas = {
 var url_perro = document.getElementsByClassName("perro");
 
 var indexButton;
-// La cosa mas desoptimizado que he hecho XD... No lo veas D:
+//La cosa mas desoptimizado que he hecho XD... No lo veas D:
 
 function BelgaMalinois() { 
   indexButton = 0
-  console.log(url_razas[url_perro[indexButton].id])
+
 
   const coso = url_razas[url_perro[indexButton].id]
 
@@ -37,7 +37,7 @@ function BelgaMalinois() {
 
 function boxer() { 
   indexButton = 1
-  console.log(url_perro[indexButton].id)
+
 
   const coso = url_razas[url_perro[indexButton].id]
 
@@ -55,7 +55,7 @@ function boxer() {
 
 function shiba() { 
   indexButton = 2
-  console.log(url_perro[indexButton].id)
+
 
   const coso = url_razas[url_perro[indexButton].id]
 
@@ -74,7 +74,7 @@ function shiba() {
 
 function akita() { 
   indexButton = 3
-  console.log(url_perro[indexButton].id)
+
 
   const coso = url_razas[url_perro[indexButton].id]
 
@@ -92,7 +92,7 @@ function akita() {
 
 function husky() { 
   indexButton = 4
-  console.log(url_perro[indexButton].id)
+
 
   const coso = url_razas[url_perro[indexButton].id]
 
