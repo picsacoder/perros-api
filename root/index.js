@@ -1,20 +1,7 @@
 var imagen_opacidad = document.getElementById("imagen_perro").style.opacity = 0 
 
-function hover() { 
-  let one = document.getElementsByClassName("enlace")[0].style.backgroundColor = "#201F1E";
-  let two = document.getElementsByClassName("enlace")[1].style.backgroundColor = "#201F1E"
 
 
-}
-
-function des_hover() { 
-  let one = document.getElementsByClassName("enlace")[0].style.backgroundColor = "#323130";
-  let two = document.getElementsByClassName("enlace")[1].style.backgroundColor = "#323130"
-}
-
-function hover_white() { 
-
-}
 /*
 
 */
@@ -66,10 +53,18 @@ function darkMode(){
     
     let change_font_color = document.body.style.color = "#E1DFDD";
 
-    //hovers 
-    let prueba = document.getElementById("prueba");
-    prueba.addEventListener("mouseover", hover)
-    prueba.addEventListener("mouseout", des_hover)
+    let css = "li a:hover:not(.active) {background-color: #201F1E}"
+
+    var style = document.createElement('style');
+
+    if (style.styleSheet) {
+        style.styleSheet.cssText = css;
+    } 
+    else {
+        style.appendChild(document.createTextNode(css));
+    }
+
+    document.getElementsByClassName('enlace')[0].appendChild(style);
 
     
   }
@@ -85,9 +80,21 @@ function darkMode(){
     change_font_color = document.body.style.color = "#3B3A39";
 
     change_font_ul = document.getElementsByClassName("enlace")[0].style.color = "#3B3A39";
-    change_font_ull = document.getElementsByClassName("enlace")[1].style.color = "#3B3A39"; 
+    change_font_ull = document.getElementsByClassName("enlace")[1].style.color = "#3B3A39";
     
+    
+    let css = "li a:hover:not(.active) {background-color: #C9C9C9}"
 
+    var style = document.createElement('style');
+
+    if (style.styleSheet) {
+        style.styleSheet.cssText = css;
+    } 
+    else {
+        style.appendChild(document.createTextNode(css));
+    }
+
+    document.getElementsByClassName('enlace')[0].appendChild(style);
 
   }
 }
